@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load dataset
-df = pd.read_csv('../data/cape_fur_seal_entanglement_2021-2025.csv')
+df = pd.read_xlsx('../data/cape_fur_seal_entanglement_2021_2025.xlsx')
 
 # Display first few rows
 print(df.head())
